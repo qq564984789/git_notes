@@ -1,4 +1,3 @@
-## 将本地内容上传至github中的repository 
 ### 前提
 - 本地内容已经包含git版本库
  (在本地路径下已使用过`git init`、`git add`和`git commit`命令)
