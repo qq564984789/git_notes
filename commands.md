@@ -27,3 +27,5 @@
 ##
 - git merge --no-ff -m "merge with no-ff" <name>：将某个分支合并到当前分支，且禁止使用`Fast forward`模式（由--no-ff表示）。
                       由于禁止使用了`Fast forward`模式,所以本次合并要创建一个新的commit，所以加上-m参数，把commit描述写进去。
+                      
+- 合并分支时，加上--no-ff参数就可以用普通模式合并，合并后的历史有分支，能看出来曾经做过合并，而fast forward合并就看不出来曾经做过合并。
