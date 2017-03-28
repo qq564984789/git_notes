@@ -9,7 +9,7 @@
 > 其中Java.git是github上远程库的名称，origin是该远程库的别名（可以取其他名字）。
 2. 将本地仓库内容推送至远程库。
     `git push -u origin master`
-> 把本地库的内容推送到远程，用git push命令，实际上是把当前分支master推送到远程。由于远程库是空的，我们第一次推送master分支时，加上了-u参数，Git不但会把本地的master分支内容推送的远程新的master分支，还会把本地的master分支和远程的master分支关联起来，在以后的推送或者拉取时就可以简化命令。
+> 把本地库的内容推送到远程，用git push命令，实际上是把当前分支master推送到远程。由于远程库是空的，我们第一次推送master分支时，加上了-u参数，Git不但会把本地的master分支内容推送的远程新的master分支，还会把本地的master分支和远程的master分支关联起来，在以后的推送或者拉取时就可以简化命令。只需要使用`git push`即可。
 
 ### 注意：
 
