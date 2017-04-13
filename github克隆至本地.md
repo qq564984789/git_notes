@@ -8,7 +8,7 @@
 
 **方法**
 
- - 使用指令`git clone git@github.com:qq564984789/gitskills.git` 
+ - 使用指令`git clone git@github.com:qq564984789/gitskills.git` 或`git clone https://github.com/qq564984789/gitskills.git` 
 
 其中，`qq564984789`是你要克隆远程库所在位置的github用户名，`gitskills`是远程库的名称。
 
