@@ -17,4 +17,5 @@
 - 如果是使用git第一次克隆远程库，会出现如下提示：
 `Are you sure you want to continue connecting (yes/no)?`直接输入` yes`即可。
 - 在任意文件路径下输入克隆指令就可以克隆远程库，无需先在本地创建git版本库
+- 可以直接复制远程版本库上下载出现的指令，然后使用键盘的insert按键将指令粘贴到git bash里。
 
